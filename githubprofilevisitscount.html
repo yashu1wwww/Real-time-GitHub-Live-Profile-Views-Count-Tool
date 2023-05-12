@@ -1,168 +1,208 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GITHUB LIVE PROFILE VIEWS COUNT</title>
-    <style>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GITHUB LIVE PROFILE VIEWS COUNT</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('https://cdn.pixabay.com/photo/2023/03/16/08/42/camping-7856198_960_720.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      background-color: #f2f2f2;
+      font-size: 16px;
+      color: #ffffff;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    input[type="text"] {
+      padding: 10px;
+      font-size: 18px;
+      border-radius: 5px;
+      border: 2px solid #ccc;
+      margin-bottom: 20px;
+      width: 100%;
+      max-width: 250px;
+      color: #000000;
+    }
+
+    .profile-views img {
+      width: 100%;
+      height: auto;
+      max-width: 250px;
+    }
+
+    @media screen and (max-width: 768px) {
       body {
-        font-family: Arial, sans-serif;
-        background-image: url('https://cdn.pixabay.com/photo/2023/03/16/08/42/camping-7856198_960_720.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-color: #f2f2f2;
-        font-size: 16px;
-        color: #ffffff;
+        font-size: 14px;
       }
 
       .container {
-        width: 100%;
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 20px;
+        padding: 10px;
       }
 
       input[type="text"] {
-        padding: 10px;
-        font-size: 18px;
-        border-radius: 5px;
-        border: 2px solid #ccc;
-        margin-bottom: 20px;
+        font-size: 16px;
         width: 100%;
-        max-width: 250px;
-        color: #000000;
-      }
-
-      .profile-views img {
-        width: 100%;
-        height: auto;
-        max-width: 250px;
-      }
-
-      @media screen and (max-width: 768px) {
-        body {
-          font-size: 14px;
-        }
-        .container {
-          padding: 10px;
-        }
-        input[type="text"] {
-          font-size: 16px;
-          width: 100%;
-          max-width: 200px;
-        }
-        input[type="submit"] {
-          font-size: 16px;
-          padding: 8px 16px;
-        }
-        .profile-views img {
-          max-width: 200px;
-        }
-      }
-
-      form {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 50px;
-      }
-
-      label {
-        font-size: 24px;
-        font-weight: bold;
-        color: red;
-        margin-bottom: 10px;
-        border: 2px solid red;
-        padding: 5px;
+        max-width: 200px;
       }
 
       input[type="submit"] {
-        padding: 10px 20px;
-        font-size: 20px;
-        border-radius: 5px;
-        border: none;
-        background-color: #4CAF50;
-        color: white;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-      }
-
-      input[type="submit"]:hover {
-        background-color: #3e8e41;
-      }
-
-      .profile-views {
-        text-align: center;
-        margin-top: 50px;
+        font-size: 16px;
+        padding: 8px 16px;
       }
 
       .profile-views img {
-        width: 100%;
-        height: auto;
-        max-width: 300px;
-        margin-top: 20px;
+        max-width: 200px;
       }
+    }
 
-      h1, h2, h3, h4, h5, h6 {
-        font-size: 1.2rem;
-        font-weight: bold;
-        margin-bottom: 10px;
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+    }
 
-      }
-    </style>
-  </head>
-  <body>
- <p align="center">
-  <b><img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&size=30&duration=5001&color=FFFFFF&vCenter=true&center=true&width=460&lines=WELCOME+TO+GITHUB;+LIVE+PROFILE+VISITS+COUNT;IF+SOMEONES+ACCOUNT+DOESNT+;APPEAR+IT+MEANS+THEY+DONT+;ADDED+A+VIEW+COUNTER+;TO+THEIR+GITHUB+OVERVIEW+;HAPPY+SEARCHING....!"></b>
-</p>
-<br>
-<center style="margin-top: 20px;">
-  <button style="background-color: white; padding: 10px 20px; margin-right: 10px;">
-    <a href="mailto:yashwanth6678@gmail.com" style="color: black; text-decoration: none; font-size: 18px; font-weight: bold;">Contact Me</a>
-  </button>
-  <button style="background-color: white; padding: 10px 20px; margin-left: 10px;">
-    <a href="https://github.com/yashu1wwww" style="color: black; text-decoration: none; font-size: 18px; font-weight: bold;">GitHub Account</a>
-  </button>
-</center>
+    label {
+      font-size: 24px;
+      font-weight: bold;
+      color: red;
+      margin-bottom: 10px;
+      border: 2px solid red;
+      padding: 5px;
+    }
 
-<style>
-  button {
-    display: inline-block;
-    border: 2px solid black;
-    border-radius: 10px;
-    transition: background-color 0.3s ease-in-out;
-  }
+    input[type="submit"] {
+      padding: 10px 20px;
+      font-size: 20px;
+      border-radius: 5px;
+      border: none;
+      background-color: #4CAF50;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
 
-  button:hover {
-    background-color: black;
-    color: white;
-  }
-</style>
+    input[type="submit"]:hover {
+      background-color: #3e8e41;
+    }
+
+    .profile-views {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .profile-views img {
+      width: 100%;
+      height: auto;
+      max-width: 300px;
+      margin-top: 20px;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+
+    }
+  </style>
 </head>
-<body>
-<div class="container">
-  <div class="profile-views">
-    <form>
-   <label for="username" style="color: #FFFFFF; font-size: 24px; font-family: 'Open Sans', sans-serif; background-color: #333333; border: 2px solid #FFFFFF;">GITHUB LIVE PROFILE VIEWS COUNT</label>
-<p style="text-align:center; color:#ffffff; font-weight:bold; font-size: 24px; font-family: 'Helvetica Neue', sans-serif; background: rgba(0,128,128,0.8); border: 2px solid black; padding: 10px; margin-top: 20px; text-shadow: 0 0 2px #000000;">ENTER USERNAME</p>
 
-<input type="text" id="username" name="username">
-      <input type="submit" value="Submit">
-    </form>
-    <img src="https://komarev.com/ghpvc/?username=" id="profile-views-counter">
-  </div>
-  <div style="text-align: center; margin-top: 20px;">
-   <div style="text-align: center;">
-  <a href="https://gitfollowerscountliveweb.on.drv.tw/git/1.html?" style="background-color: #00FFFF; color: black; border-radius: 25px; padding: 10px 20px; font-size: 16px; cursor: pointer; font-weight: bold; text-decoration: none;">Click Here For Live GitHub Followers Count</a>
-</div>
-</div>
-<script>
-  const form = document.querySelector('form');
-  const img = document.querySelector('#profile-views-counter');
-  form.addEventListener('submit', (event) => {
-    event.preventDefault();
-    const username = form.elements.username.value;
-    img.src = `https://komarev.com/ghpvc/?username=${username}&label=PROFILE VIEWS&color=red&style=flat`;
-  });
-</script>
-</body>
+<body>
+  <p align="center">
+    <b><img
+        src="https://readme-typing-svg.herokuapp.com?font=Montserrat&size=30&duration=5001&color=FFFFFF&vCenter=true&center=true&width=460&lines=WELCOME+TO+GITHUB;+LIVE+PROFILE+VISITS+COUNT;IF+SOMEONES+ACCOUNT+DOESNT+;APPEAR+IT+MEANS+THEY+DONT+;ADDED+A+VIEW+COUNTER+;TO+THEIR+GITHUB+OVERVIEW+;HAPPY+SEARCHING....!"></b>
+  </p>
+  <br>
+  <center style="margin-top: 20px;">
+    <button style="background-color: white; padding: 10px 20px; margin-right: 10px;">
+      <a href="mailto:yashwanth6678@gmail.com"
+        style="color: black; text-decoration: none; font-size: 18px; font-weight: bold;">Contact Me</a>
+    </button>
+    <button style="background-color: white; padding: 10px 20px; margin-left: 10px;">
+      <a href="https://github.com/yashu1wwww"
+        style="color: black; text-decoration: none; font-size: 18px; font-weight: bold;">GitHub Account</a>
+    </button>
+  </center>
+
+  <style>
+    button {
+      display: inline-block;
+      border: 2px solid black;
+      border-radius: 10px;
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    button:hover {
+      background-color: black;
+      color: white;
+    }
+
+    .hidden {
+      display: none;
+    }
+  </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="profile-views">
+        <form>
+          <label for="username"
+            style="color: #FFFFFF; font-size: 24px; font-family: 'Open Sans', sans-serif; background-color: #333333; border: 2px solid #FFFFFF;">GITHUB
+            LIVE PROFILE VIEWS COUNT</label>
+          <p
+            style="text-align:center; color:#ffffff; font-weight:bold; font-size: 24px; font-family: 'Helvetica Neue', sans-serif; background: rgba(0,128,128,0.8); border: 2px solid black; padding: 10px; margin-top: 20px; text-shadow: 0 0 2px #000000;">
+            ENTER USERNAME</p>
+
+          <input type="text" id="username" name="username">
+          <input type="submit" value="Submit">
+        </form>
+        <img src="https://komarev.com/ghpvc/?username=" id="profile-views-counter" class="hidden">
+      </div>
+      <div style="text-align: center; margin-top: 20px;">
+        <div style="text-align: center;">
+          <a href="https://gitfollowerscountliveweb.on.drv.tw/git/1.html?"
+            style="background-color: #00FFFF; color: black; border-radius: 25px; padding: 10px 20px; font-size: 16px; cursor: pointer; font-weight: bold; text-decoration: none;">Click
+            Here For Live GitHub Followers Count</a>
+        </div>
+      </div>
+      <script>
+        async function checkUsername(username) {
+          const res = await fetch(`https://api.github.com/users/${username}`)
+          return res.status === 200;
+        }
+        const form = document.querySelector('form');
+        const img = document.querySelector('#profile-views-counter');
+        form.addEventListener('submit', (event) => {
+          event.preventDefault();
+          const username = form.elements.username.value;
+          if (checkUsername(username)) {
+            const imageUrl = `https://komarev.com/ghpvc/?username=${username}&label=PROFILE VIEWS&color=red&style=flat`;
+            img.src = imageUrl;
+            img.classList.remove("hidden");
+          } else {
+            img.classList.toggle("hidden");
+          }
+
+        });
+
+      </script>
+  </body>
+
 </html>
